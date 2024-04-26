@@ -1,0 +1,66 @@
+.body{
+    background-color: rgb(242, 242, 242);
+}
+.etiqueta-xl{
+    background-color: rgb(191, 191,191);
+}
+.imgEtiqueta
+{
+    height: 120px;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+   height: 700px;
+}
+/* Subcontendiro de las direcciones */
+.subcontainer
+{
+    border: 1px solid rgb(217,217,217);
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 640px;
+    border-radius: 100px;
+}
+/* Tabano de los botones */
+.botonspas{
+    width:80%;
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(191, 191,191);
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    display: flex;
+
+}
+.botonspas{
+    width:80%;
+    margin-top: 2%;
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(191, 191,191);
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    display: flex;
+
+}
+.botones{
+    width:80%;
+    margin-top: 2%;
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    display: flex;
+
+}
+.a{
+    text-decoration:none ;
+}
+.letras{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}

@@ -1,0 +1,26 @@
+.body{
+    background-color: rgb(242, 242, 242);
+}
+.etiqueta-xl{
+    background-color: rgb(191, 191,191);
+}
+.imgEtiqueta
+{
+    height: 120px;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+.conteinerEmail{
+    margin-top: 5%;
+    width: 50%;
+
+    height: 300px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.a{
+    text-decoration: none;
+}
