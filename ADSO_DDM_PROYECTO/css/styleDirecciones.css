@@ -1,0 +1,18 @@
+.col-md{
+    display: flex;
+
+}
+.img{
+    margin-top: 2%;
+}
+ul{
+    list-style: none;
+}
+.tex{
+    margin-top: 7%;
+}
+.botones{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 95%;
+}
