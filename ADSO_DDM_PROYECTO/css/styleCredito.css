@@ -25,44 +25,56 @@
     margin-right: 4%;
     height: auto;
     border-radius: 100px;
+    padding: 50px 0px;
 }
 /* Tabano de los botones */
-.botonspas{
-    width:80%;
-    border: 1px solid rgb(217,217,217);
-    background-color: rgb(191, 191,191);
-    padding: 10px 10px;
-    padding-bottom: 0px;
-    display: flex;
 
-}
+
 .botonspas{
     width:80%;
     margin-top: 2%;
     border: 1px solid rgb(217,217,217);
-    background-color: rgb(191, 191,191);
-    padding: 10px 10px;
+    background-color: rgb(242, 242,242);
+    padding: 25px 30px;
     padding-bottom: 0px;
-    display: flex;
+
 
 }
-.botones{
-    width:80%;
-    margin-top: 2%;
-    border: 1px solid rgb(217,217,217);
-    background-color: rgb(255, 255, 255);
-    padding: 10px 10px;
-    padding-bottom: 0px;
-    display: flex;
 
-}
 .a{
     text-decoration:none ;
 }
 .letras{
     text-decoration: none;
+
 }
 ul{
     list-style: none;
     text-align:left ;
+}
+span{
+    color: rgb(89, 89, 89);
+}
+li{
+    margin-bottom: 5%;
+}
+p{
+    color: rgb(89, 89, 89);
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+
+}
+.img{
+    margin-left: 3%;
+    width: 110px;
+    height: auto;
+}
+.tbn{
+    text-align: left;
+}
+.email{
+    width: 80%;
+    border: none;
+    background-color: rgb(242, 242,242);    
 }

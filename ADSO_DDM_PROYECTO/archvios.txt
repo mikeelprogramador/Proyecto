@@ -1,0 +1,27 @@
+este va en direcciones
+<script>
+    // Función para enviar un mensaje al documento principal para cerrar el iframe
+    function cerrarIframe() {
+        window.parent.postMessage('cerrarIframe', '*');
+    }
+
+    // Escucha el evento de clic en el botón para cerrar el iframe
+    document.getElementById('cerrarIframeBtn').addEventListener('click', cerrarIframe);
+
+    function cambiarArchivo() {
+
+        location.href ="formato.html";
+    }
+</script>
+
+este codigo va en envio 
+<script>
+    // Escucha los mensajes enviados desde el iframe
+    window.addEventListener('message', function(event) {
+        // Verifica si el mensaje recibido es para cerrar el iframe
+        if (event.data === 'cerrarIframe') {
+            // Cierra el iframe estableciendo su src a una cadena vacía
+            document.querySelector('iframe[name="pagina"]').src = '';
+        }
+    });
+</script>

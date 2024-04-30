@@ -40,7 +40,7 @@
     width:80%;
     margin-top: 2%;
     border: 1px solid rgb(217,217,217);
-    background-color: rgb(191, 191,191);
+    background-color: rgb(242, 242,242);
     padding: 10px 10px;
     padding-bottom: 0px;
     display: flex;
@@ -50,7 +50,7 @@
     width:80%;
     margin-top: 2%;
     border: 1px solid rgb(217,217,217);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(242, 242,242);
     padding: 10px 10px;
     padding-bottom: 0px;
     display: flex;
@@ -61,8 +61,16 @@
 }
 .letras{
     text-decoration: none;
+
 }
 ul{
     list-style: none;
     text-align:left ;
+}
+.imgtarget{
+    margin-left: 15px;
+}
+span{
+    color: rgb(89, 89, 89);
+    margin-left:15px ;
 }
