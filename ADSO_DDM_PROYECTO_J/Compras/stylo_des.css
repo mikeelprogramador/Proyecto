@@ -102,12 +102,19 @@ nav ul li:hover .submenu {
     margin-top: 5%;
 }
 
-.fondo_co{
+#col{
+    background-color: white;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    text-align: left;
+}
+#col2{
     
-        background-color: rgb(255, 255, 255);
-        margin-top: 1%;
-        height: auto;
-        padding: 40px 0px;
-    
-    
+    width: auto;
+  
+   
+   
+    text-align: left;
 }

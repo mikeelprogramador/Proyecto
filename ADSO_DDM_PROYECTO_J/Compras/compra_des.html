@@ -4,14 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Compra</title>
+    <title>Proyecto</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="stylo_des.css">
 </head>
 <body class="body">
-     <div id="container" class="container">     
+    <div id="container" class="container">     
         <div class="subcontainer"> 
             <div class="row">
                 <div class="col-md-2"><img src="img\logo.png" alt="" height="110px"></div>
@@ -57,8 +57,50 @@
         </div>
     </div>
     <div id="contenido" class="container">
-        <div class="row">
-            <div class="fondo_co"> hola</div>
+        <div id="col" class="row">
+            <div  class="col" > 
+            
+                <img src="img\play.png" class="img-fluid" alt="Responsive image" >
+
+            </div>
+            <div id="columna" class="col">
+                Codigo:45896125 <br>
+                PlayStation 5 <br>
+                $ 3.200.000 <br> <br>
+                <input type="checkbox" id="opcion" name="opcion" value="opcion1" checked>Envío a domicilio 
+
+               </div>
+               <div id="subcontainer-md" class="row" style="text-align: left;">
+                          
+                           
+                <div id="col2" class="col" style="margin-top: 100%;">
+                    <div class="contenedor">
+                        <button onclick="restar()">-</button>
+                        <input type="number" id="numero" name="numero" value="0" min="0" style="width: 50px;">
+                        <button onclick="sumar()">+</button>
+                    </div>
+                </div>
+            </div>
+            
+            <script>
+                function restar() {
+                    var numeroInput = document.getElementById("numero");
+                    var numero = parseInt(numeroInput.value);
+                    if (numero > 0) {
+                        numero -= 1; // Solo restar si el número es mayor que cero
+                        numeroInput.value = numero;
+                    }
+                }
+            
+                function sumar() {
+                    var numeroInput = document.getElementById("numero");
+                    var numero = parseInt(numeroInput.value);
+                    numero += 1; // Sumar independientemente del valor actual
+                    numeroInput.value = numero;
+                }
+            </script>
+            
+
         </div>    
     </div>
     <!-- Bootstrap Bundle with Popper -->
