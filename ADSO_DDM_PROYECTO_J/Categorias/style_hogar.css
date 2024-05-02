@@ -1,0 +1,108 @@
+.body{
+    background-color:#F2F2F2;
+}
+
+#container{
+    text-align: center;
+    max-width: 100%;
+    background-color: #BFBFBF;
+}
+
+button{
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
+}
+
+
+
+/* PRIMER SUBCONTAINER  */
+
+#boton{
+    margin-top: 3%;
+}
+
+/* DESPLIEGUE DEL MENÚ */
+#boton1{
+    margin-top: 1.6%;
+   
+}
+#boton2{
+    margin-top: 0.2%;
+   
+}
+#boton3{
+    margin-top: 2.5%;
+   
+}
+nav {
+    background-color: #BFBFBF;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+       
+}
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #BFBFBF;
+    text-decoration: none;
+    color: #000000;
+
+}
+.submenu {
+   
+    display: none;
+    position: absolute;
+    background-color: #BFBFBF;
+    width: auto;
+    box-shadow: 0 2px 5px #000000;
+    border-radius: 5px;
+    z-index: 1;
+}
+.submenu a {
+    
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+.submenu a:hover {
+    background-color: #BFBFBF;
+}
+nav ul li:hover .submenu {
+    display: block;
+}
+
+
+/* SEGUNDO SUBCONTAINER  */
+#usuario{
+    text-align: center;
+}
+
+/* TERCER SUBCONTAINER  */
+#contenido{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
