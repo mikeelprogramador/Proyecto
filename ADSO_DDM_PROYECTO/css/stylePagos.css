@@ -24,3 +24,9 @@
 .a{
     text-decoration: none;
 }
+button{
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
+}

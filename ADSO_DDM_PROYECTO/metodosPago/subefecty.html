@@ -22,24 +22,42 @@
                 <!-- Fila en cabezado -->
                 <div class="row">
                     <!-- Columna #1 -->
-                    <div class="col-md"><p>Transferencias Bancaria</p></div>
+                    <div class="col-md"><p>Formato de pago en efectivo</p></div>
+                    <!-- Columna #2 -->
+                    <div class="col-md">
+                        <a href="formato.html">
+                            <button  class="tbn" type="button">Regresar</button>
+                        </a>
+                    </div>
                 </div>
                 
                 <!-- Destinos de envio -->
                 <!-- Boton 1 -->
-                <button type="button" class="botonspas">
-                    <p>Recibirás un correo electrónico con un código para pagar en tu banco de 
-                        elección este código tiene un límite de 72 horas para renovarse.</p>
-                </button>
-                <br>
-                <!-- Boton de continuar -->
-                <br>
+                <a class="letras" href="#">
+                    <button type="button" class="botonspas">
+                        <ul>
+                            <li><span>Codigo de pago: </span><sapn id="resultado"></sapn></li>
+                        </ul></button>
+                        <script src="../script/main.js"></script>
+                </a><br><br>
+                <div class="row">
+                    <!-- Columna #1 imagenes -->
+                    <div class="col-md">
+                        <img  src="../img/efecty.png" alt="Error 405"  height="80px">
+                    </div>
+                     <!-- Columna #2 imagenes -->
+                     <div class="col-md">
+                        <img  src="../img/supergiro.png" alt="Error 405" height="80px">
+                     </div>
+                </div><br><br>
+                <!-- Filas para botones -->
                 <div class="row">
                     <div class="col-md">
-                        <a href="correo.html">
+                        <a href="">
                             <input class="button" type="button" value="Finalizar">
                         </a>
                     </div>
+                    <!-- Columna #2 -->
                     <div class="col-md">
                         <a href="factura.html">
                             <input class="button" type="button" value="Factura">
@@ -47,10 +65,9 @@
                     </div>
                 </div>
                
+                
             </div>
-
         </center>
-          
     </div>
    
     

@@ -72,9 +72,19 @@ p{
 }
 .tbn{
     text-align: left;
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
 }
 .email{
     width: 80%;
     border: none;
     background-color: rgb(242, 242,242);    
+}
+.button{
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
 }

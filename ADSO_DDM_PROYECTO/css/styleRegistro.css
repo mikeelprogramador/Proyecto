@@ -1,0 +1,129 @@
+.body{
+    background-color: rgb(242, 242, 242);
+}
+/* Contenedores */
+.contenedor{
+    margin-top: 10%;
+    height:555px;
+    width: 397px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+.contenedor2{
+    margin-top: 10%;
+    height:540px;
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+.contenedor3{
+    margin-top: 10%;
+    height:621px;
+    width: 536px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+.contenedor4{
+    margin-top: 10%;
+    height:621px;
+    width: 536px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+.contenedor5{
+    margin-top: 2%;
+    height:auto;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+/* Imagenes */
+.img{
+    width: 189px;
+    height: 177px;
+}
+.img2{
+    height: 60px;
+    width: 78px;
+    margin-top: 5%;
+}
+.img3{
+    height: 98px;
+    width: 129px;
+    margin-top: 5%;
+}
+.img4{
+    height: 132px;
+    width: 189px;
+    margin-top: 5%;
+}
+.img5{
+    height: 132px;
+    width: 189px;
+    margin-top: 1%;
+}
+
+/* Botones  */
+.botones{
+    background-color: rgb(242, 242, 242);
+    width: 80%;
+    border-radius: 10px;
+    height: 50px;
+}
+.button{
+    background-color: rgb(242, 242, 242);
+    height: 37px;
+    width: auto;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
+}
+.button2{
+    background-color: rgb(173, 185, 202);
+    height: 37px;
+    width: 150px;
+    color: white;
+    border: 1px solid rgb(47, 82, 143);
+    box-shadow: 0 2px 5px #000000;
+}
+.boton{
+    height: 48px;
+    width: 43px;
+    margin-left: 3%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+.ul{
+    list-style: none;
+}
+li{
+    text-align: left;
+}
+
+.caja{
+    background-color: rgb(242, 242, 242);
+    width: 80%;
+    border:  1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    
+}
+.chulo{
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.p,h4{
+    position: relative;
+    text-align: left;
+    margin-left: 2%;
+}
