@@ -99,7 +99,7 @@ nav ul li:hover .submenu {
 #contenido{
     max-width: 100%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 #col{
@@ -117,4 +117,46 @@ nav ul li:hover .submenu {
    
    
     text-align: left;
+}
+#col3{
+    background-color: white;
+    width: auto;
+    margin-left: 35%;
+   
+    margin-bottom: 3%;
+    border-radius: 50px;
+    text-align: center;
+}
+#col4{
+    background-color: white;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+    text-align: left;
+}
+#diseño{
+    left: 10%;
+    margin-bottom: 3%;
+}
+#diseño2{
+    left: 10%;
+    margin-bottom: 3%;
+}
+button{
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 5px #000000;
+}
+
+
+
+/* separacion */
+
+.letras{
+    position: absolute;
+    left: 14%;
+    margin-top: 10px;
 }
