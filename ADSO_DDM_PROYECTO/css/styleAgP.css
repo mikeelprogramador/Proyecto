@@ -66,3 +66,19 @@ form{
     margin-top: 2%;
     border: 1px solid black;
 }
+.users{
+    width: 50%;
+    margin-top: 5%;
+    height: auto;
+}
+.bus{
+    width: 50%;
+    margin: auto; 
+    height: auto;
+}
+.diagramas{
+    width: 50%;
+    margin: auto; 
+    height: auto;
+    text-align: center;
+}
