@@ -73,12 +73,12 @@ form{
 }
 .bus{
     width: 50%;
-    margin: auto; 
+    margin-bottom: 5%; 
     height: auto;
 }
 .diagramas{
     width: 50%;
-    margin: auto; 
+    margin-top: 6%; 
     height: auto;
     text-align: center;
 }
